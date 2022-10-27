@@ -27,7 +27,7 @@ jobs:
     - run: npm install
     - run: docker-compose -f ./selenium-4-grid.yml up
     - run: npm run test
-    - run: docker-compose -f ./selenium-4-grid.yml down
+    
     
     
     
