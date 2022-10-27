@@ -2,4 +2,3 @@ node_modules
 allure-results
 test/examples
 tmp/videos
-.github
