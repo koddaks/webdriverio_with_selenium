@@ -3,12 +3,10 @@ name: Test
 on:
   push:
     branches:
-    - main
-    - features/**
-    - dependabot/**
+    - master    
   pull_request:
     branches:
-    - main
+    - master
 
 jobs:
   docker:
