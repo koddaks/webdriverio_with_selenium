@@ -32,7 +32,7 @@ jobs:
       run: npm run wdio
 
     - name: Run Allure 
-      run: npm run allure:generate
+      run: npm run allure:generate --clean
 
     - name: Stop containers
       if: always()
